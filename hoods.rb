@@ -19,3 +19,5 @@ when "cambridge"
 	clothing = "khakis"
 	drink = "crafted coocktail"
 end
+
+puts "Don't spill too much #{drink} on your #{clothing} tonight."
