@@ -22,8 +22,10 @@ elsif ac == "n" && temp > favetemp
 	puts "Fix the A/C NOW!! It's so hot!"
 elsif ac == "n" && temp < favetemp
 	puts "Fix the A/C whenever you have the chance...it's cool"
-else ac == "y" && temp < favetemp
+elsif ac == "y" && temp < favetemp
 	puts "It's chilly in here we should get a heater!"
+else
+	puts "did you listen to the directions?"
 end
 
 puts "What borough are you from?"
@@ -37,7 +39,9 @@ when "bronx"
 when "staten island"
 	puts "ohhh the island!"
 when "queens"
-	puts "I love it when you call me big papa"
+	puts "The Ramones may have been from Queens"
 when "brooklyn"
 	puts "where brooklyn at, where brooklyn at"
+else
+	puts "that is not a borough BRO!"
 end
