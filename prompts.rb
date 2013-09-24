@@ -12,11 +12,7 @@ print "What's the temperature (in Fahrenheit) now? "
 temperature = gets.chomp.to_i
 
 print "Is the A/C functional? [y(es)/n(o)]: "
-if gets.chomp[0].downcase == 'y'
-  ac_functional = true 
-else
-  ac_functional = false
-end
+gets.chomp[0].downcase == 'y' ? ac_functional = true : ac_functional = false
 
 print "What temperature (in Fahrenheit) do you wish it were? "
 desired_temperature = gets.chomp.to_i
