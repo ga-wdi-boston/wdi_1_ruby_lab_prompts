@@ -15,19 +15,19 @@ puts
 # Climate Control
 
 puts "What is the current temperature?\n"
-current_temp = gets.chomp
+current_temp = gets.chomp.to_i
 
 puts "Is the AC working (y/n)?\n"
 ac_status = gets.chomp
 
 puts "What is your desired temperature?\n"
-desired_temp = gets.chomp
+desired_temp = gets.chomp.to_i
 
-if ac_status = "y" && current_temp > desired_temp
+if ac_status == "y" && current_temp > desired_temp
 	puts "Turn on the AC please!\n\n"
-elsif ac_status = "n" && current_temp > desired_temp
+elsif ac_status == "n" && current_temp > desired_temp
 	puts "Turn on the A/C Please! It's Hot in here!\n\n"
-elsif ac_status = "n" && current_temp < desired_temp
+elsif ac_status == "n" && current_temp < desired_temp
 	puts "Fix the A/C whenever you have the chance... It's cool...\n\n"
 else
 	puts "Try adjusting the thermostat.\n\n"
