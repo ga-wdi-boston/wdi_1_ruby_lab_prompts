@@ -36,3 +36,12 @@ end
 ###3. City Boroughs
 # - Create a program that asks what borough you live in.
 # - Depending on the answer, print an appropriate response of your choosing
+puts "What borough do you life in?"
+borough = gets.chomp.capitalize
+if borough == "Manhattan"
+	puts "You gots cash, son."
+elsif borough == "Brooklyn"
+	puts "Oh, r u and Lena Dunham mad tight? Biffles?"
+elsif borough == "Queens"
+	puts "So you have kids."
+end
