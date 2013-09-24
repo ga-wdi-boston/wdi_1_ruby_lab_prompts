@@ -1,7 +1,7 @@
 puts "What is your age?"
 age = gets.chomp.to_i
 
-if age < 21
+unless age >= 21
 	puts "Shirley temple on the rocks please!"
 else
 	puts "Jager BOMBS!"
