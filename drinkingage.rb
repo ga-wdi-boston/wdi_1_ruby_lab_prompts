@@ -31,7 +31,7 @@ borough = gets.chomp.downcase
 
 case borough
 when "manhattan"
-	puts ""
+	puts "manhattan is a drink!"
 when "bronx"
 	puts "If it wasn't for the bronx..."
 when "staten island"
